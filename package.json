@@ -1,0 +1,14 @@
+{
+  "name": "GSS",
+  "version": "0.1.0",
+  "description": "Generate a living style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gilles De Mey <gilles.de.mey@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash-node": "^2.4.1"
+  }
+}

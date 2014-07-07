@@ -1,0 +1,42 @@
+//  @section Buttons
+//
+//  @description
+//    A simple button
+//
+//  @states
+//
+//  :hover             | Subtle hover highlight.
+//  :disabled          - Dims the button to indicate it cannot be used.
+//  .small             — A smaller version of the button
+//  .medium            , a medium sized button
+//  .tiny
+//  .large
+//  .huge              - A huge button
+//
+//  @markup
+//    <button>
+//      Click me!
+//    </button>
+//
+
+.button {
+  padding: 0 18px;
+
+  background: red;
+  border-radius: 0.4em;
+
+}
+
+button {
+  @extend .button;
+  -webkit-appearance: none;
+  border: none;
+}
+
+.button.medium {
+  @extend .button;
+}
+
+.button.small {
+  padding: 0 12px;
+}
